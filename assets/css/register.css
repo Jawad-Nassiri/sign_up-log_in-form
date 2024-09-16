@@ -1,0 +1,93 @@
+/* Formulaire d'inscription */
+.formRegister {
+    background-color: #f4f4f0; /* Beige clair */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.formulaire {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.infos {
+    width: 48%;
+}
+
+.infos input,
+.infos select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fffaf0; /* Beige clair */
+}
+
+textarea {
+    resize: vertical;
+}
+
+label {
+    font-weight: bold;
+    color: #5b3b1a; /* Marron foncé */
+}
+
+/* Boutons */
+button {
+    background-color: #8b4513; /* Marron foncé */
+    color: #f4f4f0; /* Beige clair */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d2b48c; /* Beige */
+    color: #5b3b1a; /* Marron foncé */
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Checkbox and error message */
+input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+p {
+    color: red;
+    font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .formulaire {
+        flex-direction: column;
+    }
+
+    .infos {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

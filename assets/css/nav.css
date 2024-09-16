@@ -1,0 +1,47 @@
+/* Style général du site */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f0; /* Beige clair */
+    margin: 0;
+    padding: 0;
+    color: #5b3b1a; /* Marron foncé */
+}
+
+h1 {
+    text-align: center;
+    color: #5b3b1a; /* Marron foncé */
+}
+
+/* Navigation */
+nav {
+    background-color: #8b4513; /* Marron foncé */
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #f4f4f0; /* Beige clair */
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #d2b48c; /* Beige */
+    color: #8b4513; /* Marron foncé */
+}
